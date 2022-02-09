@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="600.0" styleClass="background" stylesheets="@images/icons.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller">
+   <children>
+      <VBox layoutX="461.0" layoutY="29.0" prefHeight="200.0" prefWidth="116.0" spacing="3.0">
+         <children>
+            <Label fx:id="topka" prefHeight="17.0" prefWidth="128.0" text="TOPKA">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="pos1" prefHeight="17.0" prefWidth="128.0" text="Pozycja 1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="pos2" prefHeight="17.0" prefWidth="128.0" text="Pozycja 2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="pos3" prefHeight="17.0" prefWidth="128.0" text="Pozycja 3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="pos4" prefHeight="17.0" prefWidth="128.0" text="Pozycja 4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox layoutX="16.0" layoutY="9.0" prefHeight="340.0" prefWidth="393.0" spacing="20.0">
+         <children>
+            <VBox prefHeight="341.0" prefWidth="200.0" spacing="9.0">
+               <children>
+                  <ProgressBar fx:id="pb1" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb2" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb3" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb4" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb5" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb6" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb7" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb8" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb9" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb10" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb11" prefWidth="200.0" progress="0.0" />
+                  <ProgressBar fx:id="pb12" prefWidth="200.0" progress="0.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="340.0" prefWidth="158.0" spacing="10.0">
+               <children>
+                  <Label fx:id="l1" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l2" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l3" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l4" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l5" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l6" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l7" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l8" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l9" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l10" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l11" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l12" text="Label" textFill="#eb722b">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</Pane>
